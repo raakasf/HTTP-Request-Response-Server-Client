@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F29EFD70170CCFDE00FB9FBA /* ConstructorClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29EFD6F170CCFDE00FB9FBA /* ConstructorClass.cpp */; };
+		F29EFD7B170CDE4900FB9FBA /* VirtualClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29EFD7A170CDE4800FB9FBA /* VirtualClass.cpp */; };
+		F29EFD7E170CE0D900FB9FBA /* DerivedVirtualClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29EFD7D170CE0D900FB9FBA /* DerivedVirtualClass.cpp */; };
+		F29EFD81170CE2DE00FB9FBA /* DDerivedClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29EFD80170CE2DE00FB9FBA /* DDerivedClass.cpp */; };
 		F2D296C1170BF2230089F35D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2D296C0170BF2230089F35D /* main.cpp */; };
 		F2D296C3170BF2230089F35D /* Learning.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F2D296C2170BF2230089F35D /* Learning.1 */; };
+		F2D7F953170DEE38000AEBF2 /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2D7F952170DEE38000AEBF2 /* Vector.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,9 +30,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F29EFD6E170CCF3600FB9FBA /* ConstructorClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstructorClass.h; sourceTree = "<group>"; };
+		F29EFD6F170CCFDE00FB9FBA /* ConstructorClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConstructorClass.cpp; sourceTree = "<group>"; };
+		F29EFD71170CD21F00FB9FBA /* VirtualClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VirtualClass.h; sourceTree = "<group>"; };
+		F29EFD7A170CDE4800FB9FBA /* VirtualClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VirtualClass.cpp; sourceTree = "<group>"; };
+		F29EFD7C170CE09A00FB9FBA /* DerivedVirtualClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DerivedVirtualClass.h; sourceTree = "<group>"; };
+		F29EFD7D170CE0D900FB9FBA /* DerivedVirtualClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DerivedVirtualClass.cpp; sourceTree = "<group>"; };
+		F29EFD7F170CE2A400FB9FBA /* DDerivedClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDerivedClass.h; sourceTree = "<group>"; };
+		F29EFD80170CE2DE00FB9FBA /* DDerivedClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DDerivedClass.cpp; sourceTree = "<group>"; };
 		F2D296BD170BF2230089F35D /* Learning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Learning; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D296C0170BF2230089F35D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F2D296C2170BF2230089F35D /* Learning.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Learning.1; sourceTree = "<group>"; };
+		F2D7F951170DEDA4000AEBF2 /* Vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
+		F2D7F952170DEE38000AEBF2 /* Vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +76,17 @@
 			isa = PBXGroup;
 			children = (
 				F2D296C0170BF2230089F35D /* main.cpp */,
+				F29EFD6E170CCF3600FB9FBA /* ConstructorClass.h */,
+				F29EFD6F170CCFDE00FB9FBA /* ConstructorClass.cpp */,
 				F2D296C2170BF2230089F35D /* Learning.1 */,
+				F29EFD71170CD21F00FB9FBA /* VirtualClass.h */,
+				F29EFD7A170CDE4800FB9FBA /* VirtualClass.cpp */,
+				F29EFD7C170CE09A00FB9FBA /* DerivedVirtualClass.h */,
+				F29EFD7D170CE0D900FB9FBA /* DerivedVirtualClass.cpp */,
+				F29EFD7F170CE2A400FB9FBA /* DDerivedClass.h */,
+				F29EFD80170CE2DE00FB9FBA /* DDerivedClass.cpp */,
+				F2D7F951170DEDA4000AEBF2 /* Vector.h */,
+				F2D7F952170DEE38000AEBF2 /* Vector.cpp */,
 			);
 			path = Learning;
 			sourceTree = "<group>";
@@ -118,6 +143,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2D296C1170BF2230089F35D /* main.cpp in Sources */,
+				F29EFD70170CCFDE00FB9FBA /* ConstructorClass.cpp in Sources */,
+				F29EFD7B170CDE4900FB9FBA /* VirtualClass.cpp in Sources */,
+				F29EFD7E170CE0D900FB9FBA /* DerivedVirtualClass.cpp in Sources */,
+				F29EFD81170CE2DE00FB9FBA /* DDerivedClass.cpp in Sources */,
+				F2D7F953170DEE38000AEBF2 /* Vector.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +246,7 @@
 				F2D296C8170BF2230089F35D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
